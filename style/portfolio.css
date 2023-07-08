@@ -128,6 +128,7 @@ main{
     font-weight: bold;
     color: chocolate;
 }
+/* What i do style */
 .what-dsc{
     color: #474747;
     padding: 0px 130px;
@@ -138,6 +139,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 .what-child{
     margin-right: 20px;
@@ -158,4 +160,20 @@ main{
 .what-child-desc{
     color: #474747;
     padding: 10px;
+}
+/* Summary style hear */
+.summary-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 100px 30px 100px;
+}
+.summary-left{   
+    padding: 30px;
+}
+.textcolor{
+    color: #474747;
+}
+.cv-btn{
+    text-align: center;
 }
