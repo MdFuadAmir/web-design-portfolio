@@ -20,6 +20,7 @@ body{
     font-size: 30px;
     margin: 0px 0px 40px 0px;
     color: rgb(10, 12, 12);
+    margin-bottom: 10px;
 }
 /* Navigation style */
 
@@ -93,7 +94,7 @@ nav a{
 }
 /* Main section styles */
 main{
-    max-width: 1140px;
+    max-width: 1000px;
     align-items: center;
     margin: 0px auto;
 }
@@ -126,4 +127,35 @@ main{
     font-size: 20px;
     font-weight: bold;
     color: chocolate;
+}
+.what-dsc{
+    color: #474747;
+    padding: 0px 130px;
+    text-align: center;
+}
+.what-container{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.what-child{
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px  gray;
+}
+.what-child-img{
+    width: 50px;
+    padding: 10px;
+}
+.what-child-titel{
+    font-size: 20px;
+    padding: 0px 10px 10px 10px;
+    color: rgb(8, 8, 8);
+}
+.what-child-desc{
+    color: #474747;
+    padding: 10px;
 }
