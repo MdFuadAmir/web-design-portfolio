@@ -1,0 +1,10 @@
+@media screen and (min-width:576px) and (max-width:992px){
+    body{
+        /* Common shared style */
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    span{
+        color: #FD6E0A;
+    }
+}
