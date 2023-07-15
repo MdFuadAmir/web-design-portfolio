@@ -12,11 +12,11 @@
         display:flex;
         align-items: center;
         justify-content: space-around;
-        margin: 0px 200px;
+        margin: 0px 100px;
     }
     .nav-titel{
         color: #181818;
-        font-size: 45px;
+        font-size: 40px;
         font-weight: 800; 
     }
     nav > ul{
@@ -35,7 +35,7 @@
         border-radius: 5px;
         background: #FD6E0A;
         border: none;
-        padding: 18px 35px;
+        padding: 15px 30px;
         color: #fff ;
         font-size:20px;
         font-weight: 700;
@@ -43,18 +43,41 @@
 /* Header related style */
     .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 550px;
     }
     .banner{
-        padding: 30px 30px 30px 150px;
+        padding: 20px 20px 0px 150px;
         display: flex;
         align-items: center;
-        
+        justify-content: space-between;
+
+    }
+    .banner-content{
+        max-width: 500px;
     }
     .banner .profile-pic{
-        width: 500px;
+        width: 400px; 
     }
-
-
+    .banner-greeting{
+         font-size: 30px;
+         color: #474747;
+         margin-bottom: 0px;
+    }
+    .banner-titel{
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .banner-description{
+        color: #474747;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+   
 
 
 
