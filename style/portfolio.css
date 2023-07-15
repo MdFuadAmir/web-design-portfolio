@@ -7,6 +7,18 @@
     .text-prymary{
         color: #FD6E0A;
     }
+    .section-titel{
+        color: #181818;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .section-desctiption{
+        color: #757575;
+        text-align: center;
+        font-size: 15px;
+
+    }
 /* Nav related style */
     nav{
         display:flex;
@@ -77,6 +89,16 @@
         font-size: 15px;
         margin-bottom: 20px;
     }
+/* main section styles */
+
+/* About section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 150px;
+
+}
    
 
 
